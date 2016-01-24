@@ -1,7 +1,7 @@
 {
-  "name": "webpack-config",
+  "name": "easy-webpack-config",
   "version": "0.0.1",
-  "description": "Loads webpack config file based on the environment\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C",
+  "description": "Loads webpack config file based on the environment.",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,11 +24,12 @@
   "devDependencies": {
     "assert": "^1.3.0",
     "eslint-config-airbnb": "^4.0.0",
+    "expect": "^1.13.4",
     "mocha": "^2.3.4"
   },
   "dependencies": {
+    "app-root-path": "^1.0.0",
     "chalk": "^1.1.1",
-    "lodash": "^4.0.0",
-    "rootpath": "^0.1.2"
+    "lodash": "^4.0.0"
   }
 }
