@@ -1,0 +1,34 @@
+{
+  "name": "webpack-config",
+  "version": "0.0.1",
+  "description": "Loads webpack config file based on the environment\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/praneshr/webpack-config.git"
+  },
+  "keywords": [
+    "webpack",
+    "node",
+    "config"
+  ],
+  "author": "Pranesh Ravi <talkto@praneshravi.in> (http://praneshravi.in/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/praneshr/webpack-config/issues"
+  },
+  "homepage": "https://github.com/praneshr/webpack-config#readme",
+  "devDependencies": {
+    "assert": "^1.3.0",
+    "eslint-config-airbnb": "^4.0.0",
+    "mocha": "^2.3.4"
+  },
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "lodash": "^4.0.0",
+    "rootpath": "^0.1.2"
+  }
+}
