@@ -3,6 +3,6 @@ module.exports = {
   fileMapping: {
     default: 'default',
     staging: 'staging',
-    pranesh: 'production',
+    production: 'production',
   },
 };
