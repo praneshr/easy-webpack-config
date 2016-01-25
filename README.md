@@ -13,7 +13,7 @@ module.export = {
 	output: {
 		path: path.join(__dirname, "assets"),
 		publicPath: "assets/",
-		filename: "main.js", 
+		filename: "main.js",
 	},
 	module: {
     loaders: [{
@@ -56,4 +56,32 @@ module.exports = ebc.getEnvConfig
 
 ```
 
-Now when you run webpack, files will be built based on your NODE_ENV.
+
+**Using ```easy.webpack.config.js``` config file**
+
+Easy webpack config takes this optional ```js``` file as ```config```
+
+This config can have the ```context``` of the app and the ```file mapping``` for each environment.
+
+The ```config``` looks like this
+
+```
+module.exports = {
+  context: __dirname, //context of your webpack folder.
+  fileMapping: { //file names of the config to be used for different ENVs.
+    default: 'default',
+    staging: 'staging',
+    production: 'production',
+  },
+};
+
+```
+
+Now when you run webpack, files will be built based on your NODE_ENV config.
+
+
+**NOTE: ```default.js``` is a required file. Easy webpack config will take the base config from ```default.js``` and override the common fields with your ```[ENV].js```'s value.***
+
+
+
+Inspired by [node-config](https://github.com/lorenwest/node-config)
