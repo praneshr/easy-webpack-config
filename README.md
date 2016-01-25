@@ -1,6 +1,9 @@
 # Easy Webpack Config
 Load webpack config based on node environment.
 
+###Install
+```npm i easy-webpack-config```
+
 ###Usage
 ```
 $ npm i easy-webpack-config
@@ -80,7 +83,7 @@ module.exports = {
 Now when you run webpack, files will be built based on your NODE_ENV config.
 
 
-**NOTE: ```default.js``` is a required file. Easy webpack config will take the base config from ```default.js``` and override the common fields with your ```[ENV].js```'s value.***
+**NOTE: ```default.js``` is a required file. Easy webpack config will take the base config from ```default.js``` and override the common fields with your ```[ENV].js```'s value.**
 
 
 
